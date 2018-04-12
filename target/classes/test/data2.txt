@@ -1,0 +1,3 @@
+Chương trình Đánh giá học sinh quốc tế (PISA) là một khảo sát quốc tế do Tổ chức Hợp tác và Phát triển Kinh tế (OECD) đề xuất nhằm đánh giá năng lực của học sinh trong độ tuổi 15 của các nước và vùng lãnh thổ trong và ngoài OECD
+Chương trình được thực hiện 3 năm một lần kiểm tra mức hiểu biết và vận dụng của học sinh trong ba lĩnh vực Toán Khoa học và Đọc hiểu
+Bài thi không kiểm tra kiến thức thu được tại trường học mà chủ yếu đánh giá năng lực vận dụng kiến thức và kỹ năng phổ thông vào thực tế của học sinh
