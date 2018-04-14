@@ -2,7 +2,6 @@ package com.smlteam.textsimilarity.preprocess;
 
 import ai.vitk.tok.Tokenizer;
 import ai.vitk.type.Token;
-import org.apache.lucene.util.CollectionUtil;
 
 import java.io.*;
 import java.util.*;
@@ -141,7 +140,7 @@ public class Preprocesser {
         return false;
     }
 
-    private static boolean isStopWordVN(String string){
+    private static boolean isStopWordVN(String string) {
         ArrayList<String> lstStopWord = fileToList("/home/lana/IdeaProjects/TextSimilarity/src/main/resources/stopwords_vn.txt");
 
         for (String word : lstStopWord) {
