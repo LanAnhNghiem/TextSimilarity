@@ -25,12 +25,15 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-
+/**
+ *
+ * @author Lan Anh
+ */
 public class Indexer {
-    public static void main(String[] args){
 
-        final long startTime = System.nanoTime();
-        String indexPath = Constants.INDEX;
+    public void indexer(String originStr, String testStr){
+        String indexPath = indexPath = Constants.INDEX;
+
         String docsPath = Constants.DOCS;
 
         boolean create = true;
@@ -40,14 +43,7 @@ public class Indexer {
         }
 
         final Path docDir = Paths.get(docsPath);
-//        if (!Files.isReadable(docDir)) {
-//            System.out.println("Document directory '" +docDir.toAbsolutePath()+ "' does not exist or is not readable, please check the path");
-//            System.exit(1);
-//        }
-
-        Date start = new Date();
         try{
-//            System.out.println("Indexing to directory '" + indexPath + "'...");
             Directory dir = FSDirectory.open(Paths.get(indexPath));
             Analyzer analyzer = new StandardAnalyzer();
             IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
@@ -66,8 +62,8 @@ public class Indexer {
             IndexWriter writer = new IndexWriter(dir, iwc);
 
             List<String> documents = new LinkedList<>();
-            documents.add(tokenizer2(Constants.ORIGIN));
-            documents.add(tokenizer2(Constants.TEST));
+            documents.add(originStr);
+            documents.add(testStr);
             indexDocs(writer, docDir, documents);
 
             writer.close();
@@ -75,10 +71,7 @@ public class Indexer {
         }catch(IOException e){
             e.printStackTrace();
         }
-        System.out.print("\n"+(System.nanoTime() - startTime) / 1e6);
-//        convertTime(duration);
     }
-
     //Tách đoạn văn thành từ hoặc cụm từ
     public static String tokenizer(String originPath){
         List<String> doc = new LinkedList<>();
@@ -152,28 +145,8 @@ public class Indexer {
     //index một tập các văn bản
     public static void indexDocs(final IndexWriter writer, Path path, List<String> contents) throws IOException {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-//        for(String content: contents){
-//            indexDoc(writer, path, timestamp.getTime(), content);
-//        }
-        final ExecutorService executor = Executors.newFixedThreadPool(5);
-        final List<Future<?>> futures = new ArrayList<>();
         for(String content: contents){
-            Future<?> future = executor.submit(()->{
-                try {
-                    indexDoc(writer, path, timestamp.getTime(), content);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            });
-        }
-        try{
-            for(Future<?> future: futures){
-                future.get();
-            }
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
+            indexDoc(writer, path, timestamp.getTime(), content);
         }
     }
 
@@ -183,12 +156,13 @@ public class Indexer {
         Field pathField = new StringField("path", file.toString(), Field.Store.YES);
         doc.add(pathField);
         doc.add(new LongPoint("modified", lastModified));
-        doc.add(new TextField("contents", contents, Field.Store.YES));
+        FieldType myFieldType = new FieldType(TextField.TYPE_STORED);
+        myFieldType.setStoreTermVectors(true);
+        doc.add(new Field("contents", contents, myFieldType));
+//        doc.add(new TextField("contents", contents, Field.Store.YES));
         if(writer.getConfig().getOpenMode() == IndexWriterConfig.OpenMode.CREATE){
-//            System.out.print("Adding file "+ file.toString());
             writer.addDocument(doc);
         }else{
-//            System.out.print("Updating file "+ file.toString());
             writer.updateDocument(new Term("path", file.toString()), doc);
         }
     }

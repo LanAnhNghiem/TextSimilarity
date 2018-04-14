@@ -2,7 +2,8 @@ package com.smlteam.textsimilarity.preprocess;
 
 import ai.vitk.tok.Tokenizer;
 import ai.vitk.type.Token;
-
+import com.smlteam.textsimilarity.constant.Constants;
+import org.apache.lucene.queryparser.classic.ParseException;
 import java.io.*;
 import java.util.*;
 import java.util.regex.Matcher;
@@ -13,22 +14,22 @@ import java.util.regex.Pattern;
  * @author NVTC
  */
 public class Preprocesser {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        final long startTime = System.nanoTime();
-        System.out.println("TIME: " + (System.nanoTime() - startTime) / 1e6);
-        String path = "/home/lana/IdeaProjects/TextSimilarity/src/main/resources/Demo.txt";
-        String newContent = getPureContentFromFile(path, false);//vietnamese
-        System.out.println(newContent);
-
+    private static boolean isEN = false;
+    public Preprocesser(boolean isEN){
+        this.isEN = isEN;
     }
+//    public static void main(String[] args) throws IOException, ParseException {
+//        // TODO code application logic here
+//        final long startTime = System.nanoTime();
+//        System.out.println("TIME: " + (System.nanoTime() - startTime) / 1e6);
+//        String path = "/home/lana/IdeaProjects/TextSimilarity/src/main/resources/Demo.txt";
+//        String newContent = getPureContentFromFile(path);//vietnamese
+//        System.out.println(newContent);
+//
+//    }
 
     //file's content to list converting function
-    public static ArrayList<String> fileToList(String fileName) {
+    public ArrayList<String> fileToList(String fileName) {
         ArrayList<String> arrContent = new ArrayList();
         try {
             //Tạo luồng và liên kết luồng
@@ -46,7 +47,7 @@ public class Preprocesser {
         return arrContent;
     }
 
-    public static ArrayList<String> fileToListVN(String fileName){
+    public ArrayList<String> fileToListVN(String fileName){
         ArrayList<String> arrContent = new ArrayList<>();
         try{
             BufferedReader br = new BufferedReader(new FileReader(fileName));
@@ -65,7 +66,7 @@ public class Preprocesser {
         return arrContent;
     }
 
-    public static String removeSpecialChar(String word) {
+    public String removeSpecialChar(String word) {
         word = word.toLowerCase();
         Pattern pt = null;
         try {
@@ -84,7 +85,7 @@ public class Preprocesser {
         return word;
     }
 
-    public static String removeUrl(String commentstr) {
+    public String removeUrl(String commentstr) {
         String urlPattern = "((https?|ftp|gopher|telnet|file|Unsure|http):((//)|(\\\\))+[\\w\\d:#@%/;$()~_?\\+-=\\\\\\.&]*)";
         Pattern p = Pattern.compile(urlPattern, Pattern.CASE_INSENSITIVE);
         Matcher m = p.matcher(commentstr);
@@ -96,13 +97,13 @@ public class Preprocesser {
         return commentstr;
     }
 
-    public static String cleanWord(String word) {
+    public String cleanWord(String word) {
         word = removeUrl(word);
         word = removeSpecialChar(word);
         return word;
     }
 
-    public static String getPureContentFromFile(String path, boolean isEN) {
+    public String getPureContentFromFile(String path){
         ArrayList<String> content = new ArrayList<>();
         if(isEN){
             content = fileToList(path);
@@ -130,8 +131,8 @@ public class Preprocesser {
         return String.join(" ", content);
     }
 
-    private static boolean isStopWordEN(String string) {
-        ArrayList<String> lstStopWord = fileToList("/home/lana/IdeaProjects/TextSimilarity/src/main/resources/stopwords_en.txt");
+    private boolean isStopWordEN(String string) {
+        ArrayList<String> lstStopWord = fileToList(Constants.STOPWORDS_EN);
         for (String word : lstStopWord) {
             if (word.equalsIgnoreCase(string)) {
                 return true;
@@ -140,9 +141,8 @@ public class Preprocesser {
         return false;
     }
 
-    private static boolean isStopWordVN(String string) {
-        ArrayList<String> lstStopWord = fileToList("/home/lana/IdeaProjects/TextSimilarity/src/main/resources/stopwords_vn.txt");
-
+    private boolean isStopWordVN(String string) {
+        ArrayList<String> lstStopWord = fileToList(Constants.STOPWORDS_VN);
         for (String word : lstStopWord) {
             if (word.equalsIgnoreCase(string)) {
                 return true;

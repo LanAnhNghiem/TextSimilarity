@@ -9,11 +9,7 @@
         <module name="TextSimilarity" />
       </profile>
     </annotationProcessing>
-<<<<<<< HEAD
     <bytecodeTargetLevel target="1.8">
-=======
-    <bytecodeTargetLevel>
->>>>>>> 5743201373a811010d0561468317af709bc4e3f9
       <module name="TextSimilarity" target="1.8" />
     </bytecodeTargetLevel>
   </component>
