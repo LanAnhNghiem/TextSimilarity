@@ -12,6 +12,7 @@ import org.apache.spark.sql.types.Metadata;
 import org.apache.spark.sql.types.StructField;
 import org.apache.spark.sql.types.StructType;
 import scala.collection.JavaConverters;
+import scala.collection.Seq;
 import scala.tools.cmd.Meta;
 
 import java.io.IOException;
@@ -22,29 +23,31 @@ import java.util.List;
 
 
 public class Preprocesser {
-
+    static long startTime = 0;
     public static void main(String[] args){
+        startTime = System.nanoTime();
         SparkSession spark = new SparkSession.Builder().appName("TextSimilarity")
                 .master("local").getOrCreate();
+        spark.sparkContext().setLogLevel("ERROR");
 //        tokenizerVN(preprocesser(spark), spark);
 //        tokenizerEN(preprocesser(spark));
         final long startTime = System.nanoTime();
 //        filterStopwordsVN(spark, tokenizerVN(preprocesser(spark), spark));
         filterStopwordsEN(tokenizerEN(preprocesser(spark)));
-        System.out.print("\n"+(System.nanoTime() - startTime) / 1e6);
 //        filterStopwordsEN(tokenizerEN(preprocesser(spark)));
+        System.out.print("\n"+(System.nanoTime() - startTime) / 1e6);
     }
     public static Dataset<Row> preprocesser(SparkSession spark){
 
         //create dataset with column named "origin"
-        Dataset<Row> rawSet = spark.read().text(Constants.ORIGIN).withColumnRenamed("value", "origin");
+        Dataset<Row> rawSet = spark.read().text(Constants.ORIGIN);
         //to lowercase
-        rawSet = rawSet.withColumn("origin", functions.lower(new Column("origin")));
+        rawSet = rawSet.withColumn("value", functions.lower(new Column("value")));
 
         //create table document
         rawSet.createOrReplaceTempView("document");
         //filter all the url
-        Dataset<Row> docSet = spark.sql("select REGEXP_REPLACE(origin,'((https?|ftp|gopher|telnet|file|Unsure|http):((//)|(\\\\\\\\))+[\\\\w\\\\d:#@%/;$()~_?\\\\+-=\\\\\\\\\\\\.&]*)','') as filterURL from document");
+        Dataset<Row> docSet = spark.sql("select REGEXP_REPLACE(value,'((https?|ftp|gopher|telnet|file|Unsure|http):((//)|(\\\\\\\\))+[\\\\w\\\\d:#@%/;$()~_?\\\\+-=\\\\\\\\\\\\.&]*)','') as filterURL from document");
         //filter all the punctuation
         docSet = docSet.withColumn("filterPunc", functions
                 .regexp_replace(docSet.col("filterURL"), Constants.PUNCTUATION_REGEX,""));
@@ -55,7 +58,7 @@ public class Preprocesser {
     public static Dataset<Row> tokenizerVN(Dataset<Row> docSet, SparkSession spark){
         Tokenizer tokenizer = new Tokenizer();
         String docStr = docSet.as(Encoders.STRING()).first();
-        List<Token>tokenList = tokenizer.tokenize(docStr);
+        List<Token> tokenList = tokenizer.tokenize(docStr);
         List<String> docList = new LinkedList<>();
         for(Token token: tokenList){
             docList.add(token.getWord().replace(" ","_"));
@@ -88,5 +91,6 @@ public class Preprocesser {
         StopWordsRemover remover = new StopWordsRemover().setInputCol("tokenized").setOutputCol("filtered");
         Dataset<Row> resultSet = remover.transform(tokenizedSet).drop("tokenized");
         resultSet.show(false);
+
     }
 }
