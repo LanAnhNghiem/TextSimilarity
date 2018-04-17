@@ -9,12 +9,8 @@ import java.util.List;
 import java.util.Set;
 
 public class CosineSimilarity {
-    public static void main(String[] args) throws IOException {
-        CalcTFIDF calcTFIDF = new CalcTFIDF();
-        List<HashMap<String, Double>> listVector = calcTFIDF.calcAllTFIDF();
-        calcCosine(listVector.get(0), listVector.get(1));
-    }
-    public static Double calcCosine(HashMap<String, Double> leftVec, HashMap<String, Double> rightVec){
+
+    public Double calcCosine(HashMap<String, Double> leftVec, HashMap<String, Double> rightVec){
         Double result = 0.0;
         Set<String> intersection = new HashSet<>();
         intersection.addAll(leftVec.keySet());
@@ -29,7 +25,7 @@ public class CosineSimilarity {
         for(Double value: rightVec.values()){
             d2 += Math.pow(value, 2);
         }
-
-        return dotProduct/(Math.sqrt(d1)*Math.sqrt(d2));
+        result = dotProduct/(Math.sqrt(d1)*Math.sqrt(d2));
+        return result;
     }
 }
