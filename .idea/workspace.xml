@@ -3,23 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="fb63eb13-ef15-4d52-b61b-dbe4a9aa6f6d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/TextSimilarity.iml" afterPath="$PROJECT_DIR$/TextSimilarity.iml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java" afterPath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/CalcTFIDF.java" afterPath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/CalcTFIDF.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/stopwords_index/EN/_0.cfe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/stopwords_index/EN/_0.cfs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/stopwords_index/EN/_0.si" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/stopwords_index/EN/segments_1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/stopwords_index/EN/write.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/stopwords_index/VN/_0.cfe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/stopwords_index/VN/_0.cfs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/stopwords_index/VN/_0.si" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/stopwords_index/VN/segments_1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/stopwords_index/VN/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/Indexer.java" afterPath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/Indexer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java" afterPath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test/data1.txt" afterPath="$PROJECT_DIR$/src/main/resources/test/data1.txt" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/test/data2.txt" afterPath="$PROJECT_DIR$/src/main/resources/test/data2.txt" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/Main.class" afterPath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.class" afterPath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/tfidf/CalcTFIDF.class" afterPath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/tfidf/CalcTFIDF.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/index/Indexer.class" afterPath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/index/Indexer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/preprocess/Preprocesser.class" afterPath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/preprocess/Preprocesser.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/index/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/EN/_0.cfe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/EN/_0.cfs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/EN/_0.si" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/EN/segments_1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/EN/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/VN/_0.cfe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/VN/_0.cfs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/VN/_0.si" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/VN/segments_1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/VN/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/data1.txt" afterPath="$PROJECT_DIR$/target/classes/test/data1.txt" />
       <change beforePath="$PROJECT_DIR$/target/classes/test/data2.txt" afterPath="$PROJECT_DIR$/target/classes/test/data2.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,8 +41,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="258">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,12 +50,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalcTFIDF.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalcTFIDF.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/CalcTFIDF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-288">
-              <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-              <folding />
+            <state relative-caret-position="83">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +65,8 @@
       <file leaf-file-name="Indexer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/Indexer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+            <state relative-caret-position="1613">
+              <caret line="200" column="36" lean-forward="true" selection-start-line="200" selection-start-column="36" selection-end-line="200" selection-end-column="36" />
               <folding>
                 <element signature="method#tokenizer#0;class#Indexer#0" expanded="false" />
                 <element signature="method#tokenizer2#0;class#Indexer#0" expanded="false" />
@@ -71,9 +78,11 @@
       <file leaf-file-name="CosineSimilarity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="378">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,42 +90,22 @@
       <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/constant/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+            <state relative-caret-position="216">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data1.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test/data1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="461" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="536" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data2.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test/data2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Preprocesser.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Preprocesser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="23" column="79" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="79" />
+            <state relative-caret-position="-363">
+              <caret line="115" column="13" lean-forward="true" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,6 +130,8 @@
       <find>nam</find>
       <find>nam,</find>
       <find>bắc</find>
+      <find>out</find>
+      <find>System</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,18 +150,18 @@
         <option value="$PROJECT_DIR$/src/main/resources/Demo.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/TextPreprocesser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/TextIndexer.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/idea64.vmoptions" />
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/constant/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/test/data1.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/Indexer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/test/data2.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/CalcTFIDF.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.vmoptions" />
+        <option value="$PROJECT_DIR$/src/main/resources/test/data1.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/test/data2.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/Indexer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java" />
       </list>
     </option>
   </component>
@@ -196,19 +187,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="TextSimilarity" type="b2602c69:ProjectViewProjectNode" />
               <item name="TextSimilarity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TextSimilarity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TextSimilarity" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TextSimilarity" type="b2602c69:ProjectViewProjectNode" />
@@ -321,8 +307,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -521,7 +507,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="44" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -532,23 +517,23 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.50278884" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28926906" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21354581" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20876494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.49721116" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38569206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36858475" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.49721116" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -556,44 +541,36 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/CalcTFIDF.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="73" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="result" language="JAVA" />
-        <watch expression="key" language="JAVA" />
-        <watch expression="rightVec.get(key)" language="JAVA" />
-        <watch expression="leftVec" language="JAVA" />
-        <watch expression="intersection" language="JAVA" />
-        <watch expression="leftVec.get(key)" language="JAVA" />
-        <watch expression="tfidf" language="JAVA" />
-        <watch expression="reader.numDocs()" language="JAVA" />
-        <watch expression="termVector.size()" language="JAVA" />
+        <watch expression="token.getLemma()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>token.getLemma()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result.split(&quot;.&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result.split(&quot; . &quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result.split(&quot;. &quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>termVector.size()</expression-string>
         <language-id>JAVA</language-id>
@@ -624,26 +601,6 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>leftVec.get(key)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>intersection</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>result</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>vector</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
@@ -661,7 +618,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -669,31 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
           <caret line="100" column="31" lean-forward="false" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
-          <folding>
-            <marker date="1523069203030" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1523069203030" expanded="false" signature="147:572" ph="..." />
-            <marker date="1523069203030" expanded="true" signature="843:1807" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="1864:2758" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="2841:3868" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="3980:4038" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="4161:4513" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="4630:4695" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="4823:5175" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="5240:5309" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="5350:5599" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="5657:6531" ph="{...}" />
-            <marker date="1523069203030" expanded="false" signature="6554:6565" ph=" { " />
-            <marker date="1523069203030" expanded="false" signature="6575:6581" ph=" }" />
-            <marker date="1523069203030" expanded="true" signature="6652:6952" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="7028:7401" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="7460:8439" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="7606:8090" ph="{...}" />
-            <marker date="1523069203030" expanded="false" signature="8134:8149" ph=" { " />
-            <marker date="1523069203030" expanded="false" signature="8216:8226" ph=" }" />
-            <marker date="1523069203030" expanded="false" signature="8253:8268" ph=" { " />
-            <marker date="1523069203030" expanded="false" signature="8301:8311" ph=" }" />
-            <marker date="1523069203030" expanded="true" signature="8373:8433" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,7 +635,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -727,8 +663,8 @@
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -758,31 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
           <caret line="100" column="31" lean-forward="false" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
-          <folding>
-            <marker date="1523069203030" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1523069203030" expanded="false" signature="147:572" ph="..." />
-            <marker date="1523069203030" expanded="true" signature="843:1807" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="1864:2758" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="2841:3868" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="3980:4038" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="4161:4513" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="4630:4695" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="4823:5175" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="5240:5309" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="5350:5599" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="5657:6531" ph="{...}" />
-            <marker date="1523069203030" expanded="false" signature="6554:6565" ph=" { " />
-            <marker date="1523069203030" expanded="false" signature="6575:6581" ph=" }" />
-            <marker date="1523069203030" expanded="true" signature="6652:6952" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="7028:7401" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="7460:8439" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="7606:8090" ph="{...}" />
-            <marker date="1523069203030" expanded="false" signature="8134:8149" ph=" { " />
-            <marker date="1523069203030" expanded="false" signature="8216:8226" ph=" }" />
-            <marker date="1523069203030" expanded="false" signature="8253:8268" ph=" { " />
-            <marker date="1523069203030" expanded="false" signature="8301:8311" ph=" }" />
-            <marker date="1523069203030" expanded="true" signature="8373:8433" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,7 +701,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -816,8 +729,8 @@
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -826,7 +739,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -857,8 +772,8 @@
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -867,7 +782,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="31" column="68" lean-forward="false" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -898,8 +815,8 @@
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -908,7 +825,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="31" column="68" lean-forward="false" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -972,13 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Demo.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="536" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/7.3.0/lucene-core-7.3.0.jar!/org/apache/lucene/index/Fields.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1000,13 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dictionary/stopwords_en.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/7.3.0/lucene-core-7.3.0.jar!/org/apache/lucene/util/BytesRef.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
@@ -1018,31 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
           <caret line="100" column="31" lean-forward="false" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
-          <folding>
-            <marker date="1523069203030" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1523069203030" expanded="false" signature="147:572" ph="..." />
-            <marker date="1523069203030" expanded="true" signature="843:1807" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="1864:2758" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="2841:3868" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="3980:4038" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="4161:4513" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="4630:4695" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="4823:5175" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="5240:5309" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="5350:5599" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="5657:6531" ph="{...}" />
-            <marker date="1523069203030" expanded="false" signature="6554:6565" ph=" { " />
-            <marker date="1523069203030" expanded="false" signature="6575:6581" ph=" }" />
-            <marker date="1523069203030" expanded="true" signature="6652:6952" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="7028:7401" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="7460:8439" ph="{...}" />
-            <marker date="1523069203030" expanded="true" signature="7606:8090" ph="{...}" />
-            <marker date="1523069203030" expanded="false" signature="8134:8149" ph=" { " />
-            <marker date="1523069203030" expanded="false" signature="8216:8226" ph=" }" />
-            <marker date="1523069203030" expanded="false" signature="8253:8268" ph=" { " />
-            <marker date="1523069203030" expanded="false" signature="8301:8311" ph=" }" />
-            <marker date="1523069203030" expanded="true" signature="8373:8433" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1067,10 +947,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dictionary/stopwords_vn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dictionary/stopwords_en.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/test/data1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="461" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="536" />
+        <state relative-caret-position="0">
+          <caret line="0" column="915" lean-forward="false" selection-start-line="0" selection-start-column="915" selection-end-line="0" selection-end-column="915" />
           <folding />
         </state>
       </provider>
@@ -1078,15 +982,25 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/test/data2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <caret line="0" column="870" lean-forward="false" selection-start-line="0" selection-start-column="870" selection-end-line="0" selection-end-column="870" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/Indexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        <state relative-caret-position="1613">
+          <caret line="200" column="36" lean-forward="true" selection-start-line="200" selection-start-column="36" selection-end-line="200" selection-end-column="36" />
           <folding>
             <element signature="method#tokenizer#0;class#Indexer#0" expanded="false" />
             <element signature="method#tokenizer2#0;class#Indexer#0" expanded="false" />
@@ -1094,49 +1008,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/constant/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="23" column="79" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="258">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/constant/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/CalcTFIDF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        <state relative-caret-position="83">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Demo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="536" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-363">
+          <caret line="115" column="13" lean-forward="true" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
