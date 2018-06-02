@@ -5,15 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb63eb13-ef15-4d52-b61b-dbe4a9aa6f6d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/index/index1/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/index/index2/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/index/index3/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/index/index4/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/index/index5/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/index/index6/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/index/index7/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/index/index8/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/index/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/index/index0/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index0/_8.cfe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index0/_8.cfs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index0/_8.si" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index0/segments_9" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index0/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index1/_8.cfe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index1/_8.cfs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index1/_8.si" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index1/segments_9" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index1/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index2/_8.cfe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index2/_8.cfs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index2/_8.si" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index2/segments_9" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index2/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index3/_8.cfe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index3/_8.cfs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index3/_8.si" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index3/segments_9" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index3/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index4/_8.cfe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index4/_8.cfs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index4/_8.si" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index4/segments_9" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index4/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index5/_8.cfe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index5/_8.cfs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index5/_8.si" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index5/segments_9" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index5/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index6/_8.cfe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index6/_8.cfs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index6/_8.si" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index6/segments_9" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index6/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index7/_8.cfe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index7/_8.cfs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index7/_8.si" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index7/segments_9" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index7/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index8/_8.cfe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index8/_8.cfs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index8/_8.si" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index8/segments_9" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/index8/write.lock" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,32 +67,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CalcTFIDF.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/CalcTFIDF.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Indexer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/Indexer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding>
-                <element signature="method#indexer#1;class#Indexer#0" expanded="false" />
-                <element signature="method#tokenizer#0;class#Indexer#0" expanded="false" />
-                <element signature="method#tokenizer2#0;class#Indexer#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/index/index1/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,8 +137,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/index/index8/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/index/index0/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/index/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -428,11 +460,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources/test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/index" />
+      <recent name="$PROJECT_DIR$/src/main/resources/index/index0" />
       <recent name="$PROJECT_DIR$/src/main/resources/index/index8" />
       <recent name="$PROJECT_DIR$/src/main/resources/index/index7" />
       <recent name="$PROJECT_DIR$/src/main/resources/index/index6" />
-      <recent name="$PROJECT_DIR$/src/main/resources/index/index5" />
-      <recent name="$PROJECT_DIR$/src/main/resources/index/index4" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -712,26 +744,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/CalcTFIDF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/Indexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
@@ -1132,6 +1144,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/index/index8/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/index/index0/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/index/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
