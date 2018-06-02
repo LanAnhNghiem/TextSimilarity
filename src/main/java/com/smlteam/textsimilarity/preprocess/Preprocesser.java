@@ -1,6 +1,7 @@
 package com.smlteam.textsimilarity.preprocess;
 
 import ai.vitk.tok.Tokenizer;
+import ai.vitk.type.Keyword;
 import ai.vitk.type.Token;
 import com.smlteam.textsimilarity.constant.Constants;
 import org.apache.lucene.queryparser.classic.ParseException;
@@ -17,7 +18,6 @@ public class Preprocesser {
     private static boolean isEN = false;
     private ArrayList<String> lstStopwordEN = new ArrayList<>();
     private ArrayList<String> lstStopwordVN = new ArrayList<>();
-    private List<List<String>> lstSentences = new ArrayList<>();
     public Preprocesser(boolean isEN){
         this.isEN = isEN;
         if(isEN){
@@ -27,9 +27,6 @@ public class Preprocesser {
         }
     }
 
-    public List<List<String>> getLstSentences() {
-        return lstSentences;
-    }
     //    public static void main(String[] args) throws IOException, ParseException {
 //        // TODO code application logic here
 //        final long startTime = System.nanoTime();
@@ -41,46 +38,51 @@ public class Preprocesser {
 //    }
 
     //file's content to list converting function
-    public ArrayList<String> fileToList(String fileName) {
-        ArrayList<String> arrContent = new ArrayList();
+    public List<String> fileToList(String fileName) {
+        List<String> arrContent = new ArrayList();
         try {
             //Tạo luồng và liên kết luồng
             BufferedReader br = new BufferedReader(new FileReader(fileName));
             String line;
+            String doc = "";
 
             while ((line = br.readLine()) != null) {
-                String result = removeUrl(line);
-                result = removeSpecialChar(result);
-                lstSentences.add(Arrays.asList(result.split("\\.")));
-                String[] lineArray = result.replace(".","").split(" ");
-                List<String> lineContent = Arrays.asList(lineArray);
-                arrContent.addAll(lineContent);
+                String tmp = removeUrl(line);
+                tmp = removeSpecialChar(tmp);
+                doc += tmp ;
             }
+//            String[] sentences = doc.split("\\.");
+
+            arrContent = Arrays.asList(doc.split("\\."));
         } catch (IOException e) {
             e.printStackTrace();
         }
         return arrContent;
     }
 
-    public ArrayList<String> fileToListVN(String fileName){
-        ArrayList<String> arrContent = new ArrayList<>();
+    public List<String> fileToListVN(String fileName){
+        List<String> arrContent = new ArrayList<>();
         try{
             BufferedReader br = new BufferedReader(new FileReader(fileName));
             String line;
             Tokenizer tokenizer = new Tokenizer();
             List<Token> tokenList = new LinkedList<>();
+            List<String> lstWord = new ArrayList<>();
+            String doc = "";
             while ((line = br.readLine()) != null) {
                 String result = removeUrl(line);
                 result = removeSpecialChar(result);
-                lstSentences.add(Arrays.asList(result.split("\\.")));
+                String tmp = removeUrl(line);
+                tmp = removeSpecialChar(tmp);
                 tokenList.addAll(tokenizer.tokenize(result));
+
             }
             for(Token token: tokenList){
-                //ignore punctuation such as "-" or "."
-//                if(token.getLemma().equalsIgnoreCase("PUNCT"))
-//                    continue;
-                arrContent.add(token.getWord().replace(" ","_"));
+                lstWord.add(token.getWord().replace(" ","_"));
             }
+//            lstWord.removeAll(lstStopwordVN);
+            doc = String.join(" ", lstWord);
+            arrContent = Arrays.asList(doc.split("\\."));
         }catch (IOException e){
             e.printStackTrace();
         }
@@ -114,6 +116,7 @@ public class Preprocesser {
                 //remove ...
                 word = word.replaceAll("\\.{3,}","");
             }
+            word = word.trim().replaceAll(" +"," ");
         }catch (Exception e) {
             e.printStackTrace();
         }
@@ -132,18 +135,17 @@ public class Preprocesser {
         return commentstr;
     }
 
-    public String getPureContentFromFile(String path){
-        ArrayList<String> content = new ArrayList<>();
+    public List<String> getPureContentFromFile(String path){
+        List<String> content = new ArrayList<>();
         if(isEN){
             content = fileToList(path);
-            content.removeAll(lstStopwordEN);
+//            content.removeAll(lstStopwordEN);
         }else{
             content = fileToListVN(path);
-            content.removeAll(lstStopwordVN);
+//            content.removeAll(lstStopwordVN);
         }
 //        System.out.println("LENG: " + content.size());
-        return String.join(" ", content);
+//        return String.join(" ", content);
+        return content;
     }
-
-
 }

@@ -28,4 +28,5 @@ public class CosineSimilarity {
         result = dotProduct/(Math.sqrt(d1)*Math.sqrt(d2));
         return result;
     }
+
 }

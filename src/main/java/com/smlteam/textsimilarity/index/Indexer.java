@@ -31,8 +31,8 @@ import java.util.stream.StreamSupport;
  */
 public class Indexer {
 
-    public void indexer(String originStr, String testStr){
-        String indexPath = Constants.INDEX;
+    public void indexer(String originStr, String testStr, String index){
+        String indexPath = Constants.INDEX +"/index"+ index;
 
         String docsPath = Constants.DOCS;
 
@@ -71,7 +71,7 @@ public class Indexer {
             e.printStackTrace();
         }
     }
-    public void indexer(List<String> lstOrigin, List<String> lstTest){
+    public void indexer(List<List<String>> lstOrigin, List<List<String>> lstTest){
         String indexPath = Constants.INDEX;
 
         String docsPath = Constants.DOCS;
@@ -102,10 +102,18 @@ public class Indexer {
             IndexWriter writer = new IndexWriter(dir, iwc);
 
             List<String> documents = new LinkedList<>();
-
+            for(List<String> docsT: lstTest){
+                for(String docT: docsT){
+                    documents.add(docT);
+                    for(List<String> docsO: lstOrigin){
+                        for(String docO: docsO){
+                            documents.add(docO);
+                        }
+                    }
+                }
+            }
             indexDocs(writer, docDir, documents);
             writer.close();
-
         }catch(IOException e){
             e.printStackTrace();
         }

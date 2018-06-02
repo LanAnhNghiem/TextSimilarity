@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java" description="content.removeAll(lstStopwordVN);" line="144" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fb63eb13-ef15-4d52-b61b-dbe4a9aa6f6d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/MultiTasking.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/TFIDF.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/TextSimilarity.iml" afterPath="$PROJECT_DIR$/TextSimilarity.iml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java" afterPath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/Indexer.java" afterPath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/Indexer.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java" afterPath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/CalcTFIDF.java" afterPath="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/CalcTFIDF.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/.gitignore" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/test/data1.txt" afterPath="$PROJECT_DIR$/src/main/resources/test/data1.txt" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/test/data2.txt" afterPath="$PROJECT_DIR$/src/main/resources/test/data2.txt" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/Main.class" afterPath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/Main.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/index/Indexer.class" afterPath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/index/Indexer.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/preprocess/Preprocesser.class" afterPath="$PROJECT_DIR$/target/classes/com/smlteam/textsimilarity/preprocess/Preprocesser.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/index/write.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/EN/_0.cfe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/EN/_0.cfs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/EN/_0.si" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/EN/segments_1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/EN/write.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/VN/_0.cfe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/VN/_0.cfs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/VN/_0.si" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/VN/segments_1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stopwords_index/VN/write.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/index/.gitignore" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/test/data1.txt" afterPath="$PROJECT_DIR$/target/classes/test/data1.txt" />
       <change beforePath="$PROJECT_DIR$/target/classes/test/data2.txt" afterPath="$PROJECT_DIR$/target/classes/test/data2.txt" />
     </list>
@@ -36,13 +32,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TextSimilarity$TextSimilarity.coverage" NAME="TextSimilarity Coverage Results" MODIFIED="1527906203279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="144">
+              <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultiTasking.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/MultiTasking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="29" column="73" lean-forward="false" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,8 +64,8 @@
       <file leaf-file-name="CalcTFIDF.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/CalcTFIDF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="328">
+              <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,12 +73,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Indexer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TFIDF.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/TFIDF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Indexer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/Indexer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1613">
-              <caret line="200" column="36" lean-forward="true" selection-start-line="200" selection-start-column="36" selection-end-line="200" selection-end-column="36" />
+            <state relative-caret-position="198">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
+                <element signature="method#indexer#1;class#Indexer#0" expanded="false" />
                 <element signature="method#tokenizer#0;class#Indexer#0" expanded="false" />
                 <element signature="method#tokenizer2#0;class#Indexer#0" expanded="false" />
               </folding>
@@ -75,38 +97,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CosineSimilarity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/constant/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Preprocesser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Preprocesser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-363">
-              <caret line="115" column="13" lean-forward="true" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+            <state relative-caret-position="-747">
+              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data2.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/test/data2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,6 +140,10 @@
       <find>bắc</find>
       <find>out</find>
       <find>System</find>
+      <find>0</find>
+      <find>2</find>
+      <find>Test: 0</find>
+      <find>Test: 1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,15 +165,18 @@
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/constant/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/CalcTFIDF.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.vmoptions" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/TFIDF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java" />
         <option value="$PROJECT_DIR$/src/main/resources/test/data1.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/test/data2.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/Indexer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/MultiTaking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/MultiTasking.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/CalcTFIDF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/Indexer.java" />
       </list>
     </option>
   </component>
@@ -187,8 +202,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -308,7 +324,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,15 +335,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/stopwords_index/VN" />
-      <recent name="$PROJECT_DIR$/src/main/resources/stopwords_index/EN" />
-      <recent name="$PROJECT_DIR$/src/main/resources/stopwords_index" />
-      <recent name="$PROJECT_DIR$/src/main/resources/dictionary" />
-      <recent name="$PROJECT_DIR$/src/main/resources/index" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/index3" />
+      <recent name="$PROJECT_DIR$/src/main/resources/index1" />
+      <recent name="$PROJECT_DIR$/src/main/resources/index0" />
+      <recent name="$PROJECT_DIR$/src/main/resources/stopwords_index/VN" />
+      <recent name="$PROJECT_DIR$/src/main/resources/stopwords_index/EN" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -507,6 +522,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="44" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -521,8 +537,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20876494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.49721116" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21513945" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -534,6 +549,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.49721116" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -541,16 +557,30 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="73" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/Main.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="101" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="token.getLemma()" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>key</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>lstSentences</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>token.getLemma()</expression-string>
         <language-id>JAVA</language-id>
@@ -591,64 +621,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>rightVec.get(key)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>key</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/CalcTFIDF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/7.3.0/lucene-core-7.3.0.jar!/org/apache/lucene/index/MultiFields.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="100" column="31" lean-forward="false" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test/data1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/test/data2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -663,8 +638,6 @@
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -674,6 +647,7 @@
         <state relative-caret-position="1332">
           <caret line="162" column="43" lean-forward="false" selection-start-line="162" selection-start-column="43" selection-end-line="162" selection-end-column="43" />
           <folding>
+            <element signature="method#indexer#1;class#Indexer#0" expanded="false" />
             <element signature="method#tokenizer#0;class#Indexer#0" expanded="false" />
             <element signature="method#tokenizer2#0;class#Indexer#0" expanded="false" />
           </folding>
@@ -702,7 +676,7 @@
         <state relative-caret-position="468">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -729,8 +703,6 @@
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -750,6 +722,7 @@
         <state relative-caret-position="1296">
           <caret line="160" column="46" lean-forward="false" selection-start-line="160" selection-start-column="46" selection-end-line="160" selection-end-column="46" />
           <folding>
+            <element signature="method#indexer#1;class#Indexer#0" expanded="false" />
             <element signature="method#tokenizer#0;class#Indexer#0" expanded="false" />
             <element signature="method#tokenizer2#0;class#Indexer#0" expanded="false" />
           </folding>
@@ -772,8 +745,6 @@
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -793,6 +764,7 @@
         <state relative-caret-position="1296">
           <caret line="160" column="46" lean-forward="false" selection-start-line="160" selection-start-column="46" selection-end-line="160" selection-end-column="46" />
           <folding>
+            <element signature="method#indexer#1;class#Indexer#0" expanded="false" />
             <element signature="method#tokenizer#0;class#Indexer#0" expanded="false" />
             <element signature="method#tokenizer2#0;class#Indexer#0" expanded="false" />
           </folding>
@@ -815,8 +787,6 @@
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -835,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1370">
           <caret line="381" column="12" lean-forward="false" selection-start-line="381" selection-start-column="12" selection-end-line="381" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -843,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -858,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,44 +932,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test/data1.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Demo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="915" lean-forward="false" selection-start-line="0" selection-start-column="915" selection-end-line="0" selection-end-column="915" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test/data2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="870" lean-forward="false" selection-start-line="0" selection-start-column="870" selection-end-line="0" selection-end-column="870" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/Indexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1613">
-          <caret line="200" column="36" lean-forward="true" selection-start-line="200" selection-start-column="36" selection-end-line="200" selection-end-column="36" />
-          <folding>
-            <element signature="method#tokenizer#0;class#Indexer#0" expanded="false" />
-            <element signature="method#tokenizer2#0;class#Indexer#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="36">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="536" />
         </state>
       </provider>
     </entry>
@@ -1016,10 +950,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/cosinesimilarity/CosineSimilarity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test/data1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test/data2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/TFIDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-747">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/index0/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/index1/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/index3/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/MultiTasking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="29" column="73" lean-forward="false" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="144">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1028,30 +1040,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/tfidf/CalcTFIDF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="328">
+          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Demo.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/index/Indexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="536" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/smlteam/textsimilarity/preprocess/Preprocesser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-363">
-          <caret line="115" column="13" lean-forward="true" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+        <state relative-caret-position="198">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
+            <element signature="method#indexer#1;class#Indexer#0" expanded="false" />
+            <element signature="method#tokenizer#0;class#Indexer#0" expanded="false" />
+            <element signature="method#tokenizer2#0;class#Indexer#0" expanded="false" />
           </folding>
         </state>
       </provider>

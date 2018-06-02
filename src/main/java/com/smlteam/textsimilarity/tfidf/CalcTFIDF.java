@@ -31,11 +31,11 @@ public class CalcTFIDF {
 
         return vector;
     }
-    public List<HashMap<String, Double>>calcAllTFIDF() {
+    public List<HashMap<String, Double>>calcAllTFIDF(String index) {
         IndexReader reader = null;
         List<HashMap<String, Double>> vectorList = new LinkedList<>();
         try {
-            reader = DirectoryReader.open(FSDirectory.open(new File(Constants.INDEX).toPath()));
+            reader = DirectoryReader.open(FSDirectory.open(new File(Constants.INDEX+"/index"+index).toPath()));
 
             for(int i=0 ; i< reader.numDocs(); i++){
                 vectorList.add(calcTFIDF(reader, i));
